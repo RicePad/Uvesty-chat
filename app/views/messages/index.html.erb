@@ -1,16 +1,14 @@
 <div class="row">
 
 	<div class="col-md-3 text-center">
-		<%= image_tag avatar_url(@other), class: "img-circle avatar-medium" %><br>
-		<strong><%= @other.name %></strong>
-		<%= link_to "View Profile", @other, class: "btn btn-default wide" %>
+		<strong><%= @other.email %></strong>
 	</div>
 
 	<div class="col-md-9">
 
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				Conversation with <%= @other.name %>
+				Conversation with <%= @other.email %>
 			</div>
 			<div class="panel-body">
 				<div class="container">
